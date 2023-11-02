@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="uft-8" />
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+    <div>
+        <div class="title">
+            <p class="title">Kongkow Cafe</p>
+        </div>
+        <div class="eat">
+            <img src="https://cdn.themistakenman.com/wp-content/uploads/2022/08/fast-food-business.webp"
+                alt="Makan makan" class="eat">
+        </div>
+    </div>
+</body>
+
+<style>
+    *,
+    html,
+    body {
+        font-family: Barlow;
+        margin: 0;
+        padding: 0;
+    }
+
+    div {
+        justify-content: center;
+    }
+
+    div.title {
+        display: flex;
+        padding: 16px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+        background: var(--light_primary, #F44336);
+    }
+
+    p.title {
+        color: var(--foreground_on_dark, #F9F6F3);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+
+    div.eat {
+        display: flex;
+        width: 390px;
+        height: 195px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img.eat {
+        width: 390px;
+        height: 245px;
+        flex-shrink: 0;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+</style>
