@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <div>
+    <div class="base">
         <div class="a">
             <p class="a1">Kongkow Cafe</p>
         </div>
@@ -69,7 +69,7 @@
                 <div class="d-b-a">
                     <div class="d-b-a-a">
                         <img src=" https://images.theconversation.com/files/525691/original/file-20230511-19-w9pz4k.jpg?ixlib=rb-1.1.0&rect=5%2C2%2C1905%2C1276&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"
-                            alt="Anggur" class="b-d-a-a1">
+                            alt="Anggur" class="d-b-a-a1">
                     </div>
                     <div class="d-b-a-b">
                         <p class="d-b-a-b1">Seasonal Wine</p>
@@ -118,425 +118,416 @@
         font-family: Barlow;
         margin: 0;
         padding: 0;
+        background-color: azure;
+    }
+
+    p {
+        color: black;
     }
 
     div.a {
-        display: flex;
+        object-fit: cover;
+        text-align: center;
         padding: 16px;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 16px;
-        align-self: stretch;
-        background: var(--light_primary, #F44336);
+        background-color: #F44336;
     }
 
     p.a1 {
-        color: var(--foreground_on_dark, #F9F6F3);
+        background-color: #F44336;
+        color: azure;
+        position: relative;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.15px;
     }
 
     div.b {
-        display: flex;
-        width: 390px;
-        height: 195px;
-        justify-content: center;
-        align-items: center;
+        object-fit: cover;
+        text-align: center;
     }
 
     img.b1 {
         width: 390px;
         height: 245px;
         flex-shrink: 0;
-        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        object-fit: cover;
+        aspect-ratio: 1;
     }
 
     div.c {
-        width: Hug (224px);
-        height: Hug (60px);
-
-    }
-
-    div.c-a {
-        width: Fill (390px);
-        height: Hug (148px);
-        padding: 32px, 16px, 32px, 16px;
+        text-align: center;
         gap: 8px;
-
+        padding-top: 16px;
+        padding-left: 32px;
+        padding-bottom: 16px;
+        padding-right: 32px;
     }
 
     p.c-a1 {
-        width: 224px;
-        height: 36px;
-
-
-
+        font-size: 28px;
     }
 
-    p.c-a2 {
-        width: 181px;
-        height: 24px;
-
+    p.ca2 {
+        font-size: 26px;
     }
 
     p.c1 {
-        width: 166px;
-        height: 16px;
-
+        font-size: 12px;
     }
 
     div.d {
-        width: Fill (390px);
-        height: Hug (726px);
         gap: 16px;
-
     }
 
     div.d-a {
-        width: Fill (390px);
-        height: Hug (355px);
-        gap: 16px;
-        flex-direction: columm;
-
+        display: flex;
+        justify-content: space-between;
     }
 
     div.d-a-a {
-        width: Fill (187px);
-        height: Hug (355px);
-        padding: 0px, 0px, 16px, 0px;
-
-    }
-
-    div.d-a-a-a {
+        aspect-ratio: 1;
+        object-fit: cover;
+        text-align: center;
         width: 187px;
-        height: 187px;
-
+        padding-bottom: 16px;
     }
 
     img.d-a-a-a1 {
-        width: 356px;
+        width: 187px;
         height: 187px;
-        left: -85px;
+        object-fit: cover;
+        aspect-ratio: 1;
 
     }
 
     div.d-a-a-b {
-        width: Fill (187px);
-        height: Hug (40px);
-        padding: 8px, 16px, 8px, 16px;
-
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-bottom: 8px;
+        padding-right: 16px;
     }
 
     p.d-a-a-b1 {
-        width: 155px;
-        height: 24px;
-
+        font-size: 24px;
     }
 
     div.d-a-a-c {
-        width: Fill (187px);
-        height: Fixed (64px);
-        padding: 0px, 16px, 16px, 16px;
+        padding-left: 16px;
+        padding-bottom: 16px;
+        padding-right: 16px;
     }
 
     p.d-a-a-c1 {
-        width: 155px;
-        height: 48px;
-
-
+        font-size: 12px;
     }
 
     div.d-a-a-d {
-        width: Fill (187px);
-        height: Hug (24px);
-        padding: 0px, 16px, 0px, 16px;
-
+        text-align: end;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     p.d-a-a-d1 {
-        width: 155px;
-        height: 24px;
-
+        font-size: 16px;
     }
 
     div.d-a-a-e {
-        width: Fill (187px);
-        height: Hug (24px);
-        padding: 0px, 16px, 0px, 16px;
-
+        justify-content: space-between;
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     p.d-a-a-e1 {
-        width: 138px;
-        height: 16px;
-
+        font-size: 12px;
     }
 
     p.d-a-a-e2 {
-        width: 17px;
-        height: 24px;
-
+        font-size: 16px;
     }
 
     div.d-a-b {
-        width: Fill (187px);
-        height: Hug (355px);
-        padding: 0px, 0px, 16px, 0px;
-
-    }
-
-    div.d-a-b-a {
+        aspect-ratio: 1;
+        object-fit: cover;
+        text-align: center;
         width: 187px;
-        height: 187px;
-
     }
 
     img.d-a-b-a1 {
-        width: 356px;
+        width: 187px;
         height: 187px;
-        left: -84px;
-
+        object-fit: cover;
+        aspect-ratio: 1;
     }
 
     div.d-a-b-b {
-        width: Fill (187px);
-        height: Hug (40px);
-        padding: 8px, 16px, 8px, 16px;
-
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-bottom: 8px;
+        padding-right: 16px;
     }
 
     p.d-a-b-b1 {
-        width: 155px;
-        height: 24px;
-
+        font-size: 24px;
     }
 
     div.d-a-b-c {
-        width: Fill (187px);
-        height: Fixed (64px);
-        padding: 0px, 16px, 16px, 16px;
+        padding-left: 16px;
+        padding-bottom: 16px;
+        padding-right: 16px;
     }
 
     p.d-a-b-c1 {
-        width: 155px;
-        height: 32px;
-
+        font-size: 12px;
     }
 
     div.d-a-b-d {
-        width: Fill (187px);
-        height: Hug (24px);
-        padding: 0px, 16px, 0px, 16px;
-
+        justify-content: space-between;
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     p.d-a-b-d1 {
-        width: 140px;
-        height: 16px;
-
+        font-size: 12px;
     }
 
     p.d-a-b-d2 {
-        width: 15px;
-        height: 24px;
-
+        font-size: 16px;
     }
 
     div.d-a-b-e {
-        width: Fill (187px);
-        height: Hug (24px);
-        padding: 0px, 16px, 0px, 16px;
-
+        justify-content: space-between;
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     p.d-a-b-e1 {
-        width: 137px;
-        height: 16px;
-
+        font-size: 12px;
     }
 
     p.d-a-b-e2 {
-        width: 18px;
-        height: 24px;
-
+        font-size: 16px;
     }
 
     div.d-b {
-        width: Fill (390px);
-        height: Hug (355px);
-        gap: 16px;
-
+        display: flex;
+        justify-content: space-between;
     }
 
     div.d-b-a {
-        width: Fill (187px);
-        height: Hug (355px);
-        padding: 0px, 0px, 16px, 0px;
-
-    }
-
-    div.d-b-a-a {
+        aspect-ratio: 1;
+        object-fit: cover;
+        text-align: center;
         width: 187px;
-        height: 187px;
-
     }
 
     img.d-b-a-a1 {
-        width: 356px;
+        width: 187px;
         height: 187px;
-        left: -85px;
-
+        object-fit: cover;
+        aspect-ratio: 1;
     }
 
     div.d-b-a-b {
-        width: Fill (187px);
-        height: Hug (40px);
-        padding: 8px, 16px, 8px, 16px;
-
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-bottom: 8px;
+        padding-right: 16px;
     }
 
     p.d-b-a-b1 {
-        width: 155;
-        height: 24px;
-
-
+        font-size: 24px;
     }
 
     div.d-b-a-c {
-        width: Fill (187px);
-        height: Fixed (64px);
-        padding: 0px, 16px, 16px, 16px;
-
+        padding-left: 16px;
+        padding-bottom: 16px;
+        padding-right: 16px;
     }
 
     p.d-b-a-c1 {
-        width: 155px;
-        height: 48px;
-
+        font-size: 12px;
     }
 
     div.d-b-a-d {
-        width: Fill (187px);
-        height: Hug (24px);
-        padding: 0px, 16px, 0px, 16px;
-
+        justify-content: space-between;
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     p.d-b-a-d1 {
-        width: 130px;
-        height: 16px;
-
+        font-size: 12px;
     }
 
     p.d-b-a-d2 {
-        width: 25px;
-        height: 24px;
-
+        font-size: 16px;
     }
 
     div.d-b-a-e {
-        width: Fill (187px);
-        height: Hug (24px);
-        padding: 0px, 16px, 0px, 16px;
-
+        justify-content: space-between;
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     p.d-b-a-e1 {
-        width: 122px;
-        height: 16px;
-
+        font-size: 12px;
     }
 
-    P.d-b-a-e2 {
-        width: 33px;
-        height: 24px;
-
+    p.d-b-a-e2 {
+        font-size: 16px;
     }
 
     div.d-b-b {
-        width: Fill (187px);
-        height: Hug (355px);
-        padding: 0px, 0px, 16px, 0px;
-
-    }
-
-    div.d-b-b-a {
+        aspect-ratio: 1;
+        object-fit: cover;
+        text-align: center;
         width: 187px;
-        height: 187px;
-
     }
 
     img.d-b-b-a1 {
-        width: 356px;
+        width: 187px;
         height: 187px;
-        left: -84px;
-
+        object-fit: cover;
+        aspect-ratio: 1;
     }
 
     div.d-b-b-b {
-        width: Fill (187px);
-        height: Hug (40px);
-        padding: 8px, 16px, 8px, 16px;
-
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-bottom: 8px;
+        padding-right: 16px;
     }
 
     p.d-b-b-b1 {
-        width: 155px;
-        height: 24px;
-
+        font-size: 24px;
     }
 
     div.d-b-b-c {
-        width: Fill (187px);
-        height: Fixed (64px);
-        padding: 0px, 16px, 16px, 16px;
-
+        padding-left: 16px;
+        padding-bottom: 16px;
+        padding-right: 16px;
     }
 
     p.d-b-b-c1 {
-        width: 155px;
-        height: 32px;
-
+        font-size: 12px;
     }
 
     div.d-b-b-d {
-        width: Fill (187px);
-        height: Hug (24px);
-        padding: 0px, 16px, 0px, 16px;
-
+        justify-content: space-between;
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     p.d-b-b-d1 {
-        width: 137px;
-        height: 16px;
-
+        font-size: 12px;
     }
 
     p.d-b-b-d2 {
-        width: 18px;
-        height: 24px;
-
+        font-size: 16px;
     }
 
     div.d-b-b-e {
-        width: Fill (187px);
-        height: Hug (24px);
-        padding: 0px, 16px, 0px, 16px;
-
+        justify-content: space-between;
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     p.d-b-b-e1 {
-        width: 137px;
-        height: 16px;
-
+        font-size: 12px;
     }
 
     p.d-b-b-e2 {
-        width: 18px;
-        height: 24px;
+        font-size: 16px;
+    }
+
+    @media only screen and (min-width: 600px) {
+        img.b1 {
+            width: 100vw;
+            height: 50vw;
+        }
+
+        div.d {
+            display: flex;
+            justify-content: center;
+        }
+
+        div.d-a {
+            width: 50vw;
+            justify-content: flex-start;
+            gap: 9vw;
+        }
+
+        div.d-a-a {
+            width: 257,25px;
+            height: 257,25px;
+            padding-bottom: 32px;
+        }
+
+        img.d-a-a-a1 {
+            width: 257.25px;
+            height: 257.25px;
+        }
+
+        p.d-a-a-b1 {
+            font-size: 28px;
+        }
+
+        p.d-a-a-c1 {
+            font-size: 20px;
+        }
+
+        p.d-a-a-d1 {
+            font-size: 28px;
+        }
+
+        p.d-a-a-e1 {
+            font-size: 20px;
+        }
+
+        p.d-a-a-e2 {
+            font-size: 28px;
+        }
+
+        div.d-a-b {
+            width: 257,25px;
+            padding-bottom: 32px;
+        }
+
+        img.d-a-b-a1 {
+            width: 257.25px;
+            height: 257.25px;
+        }
+
+        p.d-a-b-b1 {
+            font-size: 28px;
+        }
+
+        p.d-a-b-c1 {
+            font-size: 20px;
+        }
+
+        p.d-a-b-d1 {
+            font-size: 28px;
+        }
+
+        p.d-a-b-e1 {
+            font-size: 20px;
+        }
+
+        p.d-a-b-e2 {
+            font-size: 28px;
+        }
+
+
+        div.d-b {
+            width: 50vw;
+            justify-content: flex-end;
+            gap: 9vw;
+        }
 
     }
 </style>
